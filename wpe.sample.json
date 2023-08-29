@@ -6,10 +6,10 @@
       "name": "development",
       "branch": "main",
       "wp_environment_name": "kongloheaddev",
-      "secrets": [
+      "env_variables": [
         {
-          "key": "MY_SECRET",
-          "value": "Happy Halloween!!!"
+          "key": "GRAPHQL_API_URL",
+          "value": "https://dynahead.wpengine.com/graphql"
         }
       ]
     }
